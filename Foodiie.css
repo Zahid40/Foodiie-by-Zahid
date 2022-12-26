@@ -1,0 +1,369 @@
+* {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    scrollbar-color: black;
+}
+
+body {
+    background-color: black;
+}
+
+/* Navigationbar and its item  */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Logo and image  */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo .logoimg {
+    background: url(logo.svg )no-repeat center center/cover;
+    height: 100px;
+    width: 142px;
+}
+
+/* List item  */
+.navitem {
+    display: flex;
+}
+
+.navitem li {
+    list-style-type: none;
+}
+
+.navitem a {
+    text-decoration: none;
+    font-family: Righteous;
+    color: white;
+    font-size: 1.3rem;
+    padding: 3px 22px;
+    border-radius: 4rem;
+    text-shadow: 3px 3px 3px black;
+    transition: all .3s;
+}
+
+.navitem a:hover {
+    color: black;
+    background-color: white;
+    text-shadow: none;
+}
+
+/* Home content here  */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 110px 250px;
+    text-align: center;
+    height: 400px;
+    color: rgba(255, 255, 255, 0.986);
+    text-shadow: 3px 3px 3px black;
+    /* background: url(bg1.jpg) no-repeat center/cover; */
+}
+
+.home::before {
+    content: "";
+    z-index: -2;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(bg1.jpg) no-repeat center/cover;
+    opacity: .98;
+}
+
+.home h1 {
+    font-size: 5rem;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Permanent Marker';
+}
+
+.home p {
+    font-size: .9rem;
+    padding: 2px;
+    font-family: 'Martian Mono';
+}
+
+.btn1 {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.623);
+    border: 2px black solid;
+    /* border: none; */
+    color: orangered;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-family: 'Martian Mono';
+    margin: 10px;
+    cursor: pointer;
+    text-shadow: 3px 3px 3px black;
+    transition: all .5s;
+}
+
+.btn1:hover {
+    color: black;
+    background-color: orangered;
+    text-shadow: none;
+}
+
+.service-container {
+    background-color: white;
+}
+
+.services {
+    display: flex;
+}
+
+.servicetxt {
+    text-align: center;
+    font-size: 4rem;
+    font-family: Righteous;
+    padding-top: 20px;
+    text-shadow: 4px 4px 4px black;
+}
+#patners {
+    text-shadow: 2px 2px 2px black;
+}
+
+.box {
+    background-color: whitesmoke;
+    border: 2px black solid;
+    display: block;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 28px;
+    transition: all .3s;
+}
+
+.box:hover {
+    background-color: #a3080c;
+}
+
+.box img {
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.sevicehed {
+    text-align: center;
+    font-family: Righteous;
+    margin: 10px;
+}
+
+.servicepara {
+    font-family: 'Martian Mono';
+    text-align: center;
+    font-size: .9rem;
+}
+
+
+.Clints {
+    height: 400px;
+    /* border: red 2px solid; */
+
+}
+
+.clintspro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Clints::before {
+    content: "";
+    z-index: -2;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    background: url(/pexels-marco-fischer-115740.jpg) no-repeat center/cover;
+    opacity: .2;
+}
+
+.Clints img {
+    height: 150px;
+    margin: 30px;
+}
+
+#clinttxt {
+    color: white;
+}
+
+/* Login */
+.login {
+    background: url(/pexels-pixabay-54455.jpg) no-repeat center center/cover;
+    opacity: .8;
+    width: 100%;
+    height: 727px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px red solid; */
+}
+
+.form-grp {
+    /* border: 2px blue solid; */
+}
+
+.form-grp label {
+    color: #ffa042;
+    display: block;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: Righteous;
+    text-shadow: 4px 4px 4px black;
+}
+
+.form-grp input::placeholder , textarea::placeholder{
+    color: rgba(0, 0, 0, 0.61);
+    text-shadow: 2px 2px 2px black;
+}
+
+.form-grp input,
+textarea {
+    background-color: rgb(139 121 48 / 31%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Righteous;
+    text-shadow: 3px 3px 4px black;
+    border: none;
+    border-radius: 30px;
+    font-size: 2rem;
+    display: flex;
+    width: 500px;
+    height: 40px;
+    box-shadow: 4px 4px 4px black;
+}
+
+.form-grp input:hover,
+textarea:hover {
+    background-color: #a06429be;
+}
+
+.form-grp input:focus,
+textarea:focus {
+    background-color: #a06429be;
+}
+
+/* footer  */
+footer {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+}
+
+footer::before {
+    content: "";
+    z-index: -2;
+    background: url(/pexels-pixabay-276514.jpg) bottom/cover;
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    opacity: .35;
+}
+
+footer .logoimg {
+    background: url(logo.svg )no-repeat center center/cover;
+    filter: invert(100%);
+    /* mix-blend-mode:saturation; */
+    height: 300px;
+    width: 342px;
+    margin: 100px 50px;
+    transform: rotate(10deg) scale(1.2);
+    opacity: 70%;
+
+}
+
+footer .payment {
+    position: absolute;
+    top: 120px;
+    left: 589px;
+
+}
+footer .payment li {
+    list-style-type: none;
+    text-align: center;
+}
+.pay {
+    color: white;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+.pay img {
+    height: 70px;
+    width: 100px;
+    padding: 10px;
+    
+}
+
+.copy {
+    color: white;
+    font-family: 'Martian Mono';
+    font-weight: 100;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
+
+footer .connect {
+    position: absolute;
+    top: 150px;
+    left: 1017px;
+
+}
+footer .connect li {
+    list-style-type: none;
+    text-align: center;
+}
+.conn img {
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+}
+footer ul {
+    background-color: #00000088;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
