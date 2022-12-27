@@ -297,7 +297,7 @@ footer {
 footer::before {
     content: "";
     z-index: -2;
-    background: url(/pexels-pixabay-276514.jpg) bottom/cover;
+    background: url(pexels-pixabay-276514.jpg) bottom/cover;
     position: absolute;
     height: 500px;
     width: 100%;
