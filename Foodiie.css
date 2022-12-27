@@ -50,7 +50,7 @@ body {
 }
 
 .logo .logoimg {
-    background: url(/logo.svg)no-repeat center center/cover;
+    background: url(logo.svg)no-repeat center center/cover;
     height: 100px;
     width: 142px;
 }
@@ -212,7 +212,7 @@ body {
     height: 400px;
     width: 100%;
     position: absolute;
-    background: url(/pexels-marco-fischer-115740.jpg) no-repeat center/cover;
+    background: url(pexels-marco-fischer-115740.jpg) no-repeat center/cover;
     opacity: .2;
 }
 
