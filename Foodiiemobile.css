@@ -10,6 +10,7 @@ body {
   }
   .navitem a  {
     font-size: 1rem;
+    padding: .2rem .6rem;
   }
   /* logo and images  */
   .logo {
@@ -62,10 +63,10 @@ body {
   }
   /* clints  */
   .Clints {
-    height: 41rem;
+    height: 40rem;
   }
   .Clints::before {
-    height: 41rem;
+    height: 40rem;
     position: absolute;
     background: url(pexels-marco-fischer-115740.jpg) no-repeat  center center/cover;
   }
@@ -73,7 +74,7 @@ body {
     flex-wrap: wrap;
   }
   .Clints img {
-    height: 8rem;
+    height: 6rem;
     margin: 2rem;
   }
 
@@ -87,20 +88,20 @@ body {
   .form-grp input,
 textarea {
   height: 4rem;
-  width: 25rem;
+  width: 20rem;
 }
 
  /* footer  */
  footer {
-  height: 20rem;
+  height: 35rem;
  }
  footer::before {
-  height: 20rem;
+  height: 35rem;
  }
  footer .logoimg {
    height: 100px;
    width: 142px;
-   margin: 6rem 1rem;
+   margin: 4rem auto;
  }
  footer ul {
   display: flex;
@@ -109,8 +110,8 @@ textarea {
   width: 20rem;
  }
   footer .payment {
-    top: 4rem;
-    left: 10rem;
+    top: 20rem;
+    left: .5rem;
   }
   footer .payment li {
     list-style-type: none;
@@ -124,8 +125,8 @@ textarea {
   
 }
 footer .connect {
-  top: 11rem;
-  left: 10rem;
+  top: 25rem;
+  left: .5rem;
 
 }
 footer .connect li {
