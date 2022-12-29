@@ -12,10 +12,12 @@ body {
 /* Navigationbar and its item  */
 #navbar {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     position: absolute;
     top: 0px;
     width: 100%;
+    height: auto;
     /* background-color: rgb(0, 0, 0); */
 }
 
@@ -24,8 +26,8 @@ body {
     background-color: black;
     opacity: 0.6;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0rem;
+    left: 0rem;
     z-index: -1;
     height: 100%;
     width: 100%;
@@ -34,6 +36,7 @@ body {
 #navbar ul {
     display: flex;
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 /* Logo and image  */
@@ -41,10 +44,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90px;
-    height: 90px;
-    margin: 10px 10px;
-    padding: 10px;
+    width: 6rem;
+    height: 6rem;
+    margin: 1rem 1rem;
+    padding: .8rem;
     border-radius: 100%;
     background-color: rgb(255, 255, 255);
 }
@@ -69,7 +72,7 @@ body {
     font-family: Righteous;
     color: white;
     font-size: 1.3rem;
-    padding: 3px 22px;
+    padding: .2rem 1.8rem;
     border-radius: 4rem;
     text-shadow: 3px 3px 3px black;
     transition: all .3s;
@@ -87,9 +90,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 110px 250px;
+    padding: 10rem 16rem;
     text-align: center;
-    height: 400px;
+    height: 28rem;
     color: rgba(255, 255, 255, 0.986);
     text-shadow: 3px 3px 3px black;
     /* background: url(bg1.jpg) no-repeat center/cover; */
@@ -109,8 +112,8 @@ body {
 
 .home h1 {
     font-size: 5rem;
-    padding: 20px;
-    margin: 10px;
+    padding: 1.2px;
+    margin: 1rem;
     font-family: 'Permanent Marker';
 }
 
@@ -126,10 +129,10 @@ body {
     border: 2px black solid;
     /* border: none; */
     color: orangered;
-    padding: 10px 25px;
+    padding: 1rem 1.5rem;
     font-size: 15px;
     font-family: 'Martian Mono';
-    margin: 10px;
+    margin: 1rem;
     cursor: pointer;
     text-shadow: 3px 3px 3px black;
     transition: all .5s;
@@ -208,7 +211,7 @@ body {
 
 .Clints::before {
     content: "";
-    z-index: -2;
+    z-index: -1;
     height: 400px;
     width: 100%;
     position: absolute;
@@ -227,10 +230,17 @@ body {
 
 /* Login */
 .login {
-    background: url(https://images.pexels.com/photos/54455/cook-food-kitchen-eat-54455.jpeg) no-repeat center center/cover;
-    opacity: .8;
     width: 100%;
     height: 727px;
+}
+.login::before {
+    content: "";
+    z-index: -1;
+    height: 727px;
+    width: 100%;
+    position: absolute;
+    background: url(https://images.pexels.com/photos/54455/cook-food-kitchen-eat-54455.jpeg) no-repeat center center/cover;
+    opacity: .8;
 }
 
 .contact {
@@ -297,7 +307,7 @@ footer {
 footer::before {
     content: "";
     z-index: -2;
-    background: url(pexels-pixabay-276514.jpg) bottom/cover;
+    background: url(pexels-pixabay-276514.jpg) center bottom/cover;
     position: absolute;
     height: 500px;
     width: 100%;
@@ -338,15 +348,6 @@ footer .payment li {
     
 }
 
-.copy {
-    color: white;
-    font-family: 'Martian Mono';
-    font-weight: 100;
-    text-align: center;
-    font-size: 15px;
-    padding: 10px;
-}
-
 footer .connect {
     position: absolute;
     top: 150px;
@@ -366,4 +367,14 @@ footer ul {
     background-color: #00000088;
     border-radius: 20px;
     box-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+.copy {
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-family: 'Martian Mono';
+    font-weight: 100;
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
 }
