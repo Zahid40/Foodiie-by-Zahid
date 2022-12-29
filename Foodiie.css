@@ -106,7 +106,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    background: url(bg1.jpg) no-repeat center/cover;
+    background: url(https://images.pexels.com/photos/920570/pexels-photo-920570.jpeg?cs=srgb&dl=pexels-min-an-920570.jpg&fm=jpg&_gl=1*1w3fmko*_ga*Mjk4NTM0OTQ1LjE2NzA0MzIzODg.*_ga_8JE65Q40S6*MTY3MTg2MTMyNC4yLjEuMTY3MTg2MTUwNC4wLjAuMA..) no-repeat center/cover;
     opacity: .98;
 }
 
@@ -215,7 +215,7 @@ body {
     height: 400px;
     width: 100%;
     position: absolute;
-    background: url(pexels-marco-fischer-115740.jpg) no-repeat center/cover;
+    background: url(https://images.pexels.com/photos/115740/pexels-photo-115740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center/cover;
     opacity: .2;
 }
 
@@ -377,4 +377,6 @@ footer ul {
     text-align: center;
     font-size: 1rem;
     padding: 10px;
+    position: absolute;
+    bottom: 0px;
 }
