@@ -1,0 +1,142 @@
+body {
+    background-color: black;
+}
+  /* Navigation bar and items  */
+  #navbar {
+    flex-direction: column;
+  }
+  #navbar ul {
+    margin: 1rem 0px;
+  }
+  .navitem a  {
+    font-size: 1rem;
+  }
+  /* logo and images  */
+  .logo {
+    width: 4rem;
+    height: 4rem;
+    margin: .5rem .5rem;
+    padding: .4rem;
+  }
+  .logo .logoimg {
+    height: 70px;
+    width: 91px;
+}
+
+  /* list items  */
+  /* home content here  */
+  .home {
+    padding: 17rem 4rem;
+  }
+  .home h1 {
+    font-size: 4rem;
+    padding: 4rem;
+  }
+  .home p {
+    font-size: .7rem;
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 2rem;
+    padding: 1rem;
+  }
+  .btn1 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem 5rem;
+    border: 1px solid orangered;
+  }
+
+  /* services  */
+  .services {
+    flex-direction: column;
+  }
+  .servicetxt {
+    font-size: 3rem;
+  }
+  .box {
+    border: 1px black solid;
+    width: 80%;
+    margin: 1rem auto;
+  }
+  .box img {
+    height: 8rem;
+  }
+  /* clints  */
+  .Clints {
+    height: 41rem;
+  }
+  .Clints::before {
+    height: 41rem;
+    position: absolute;
+    background: url(pexels-marco-fischer-115740.jpg) no-repeat  center center/cover;
+  }
+  .clintspro {
+    flex-wrap: wrap;
+  }
+  .Clints img {
+    height: 8rem;
+    margin: 2rem;
+  }
+
+  /* login  */
+  .login {
+    height: 60rem;
+  }
+  .login::before {
+    height: 60rem;
+  }
+  .form-grp input,
+textarea {
+  height: 4rem;
+  width: 25rem;
+}
+
+ /* footer  */
+ footer {
+  height: 20rem;
+ }
+ footer::before {
+  height: 20rem;
+ }
+ footer .logoimg {
+   height: 100px;
+   width: 142px;
+   margin: 6rem 1rem;
+ }
+ footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+ }
+  footer .payment {
+    top: 4rem;
+    left: 10rem;
+  }
+  footer .payment li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 1rem;
+}
+.pay img {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  
+}
+footer .connect {
+  top: 11rem;
+  left: 10rem;
+
+}
+footer .connect li {
+  font-size: 1rem;
+}
+.conn img {
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+}
+
+  .copy {
+    font-size: .6rem;
+  }
